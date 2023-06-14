@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500&family=Poppins:wght@200;400;500&family=Roboto:ital,wght@0,100;0,300;0,400;1,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.header {
+    background-color: #FFFFFF;
+}
+
+.header-area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo img {
+    width: 230px;
+}
+
+nav>ul>li {
+    display: inline-block;
+    margin-left: 30px;
+    list-style-type: none;
+    margin-top: 30px;
+}
+
+nav>ul>li>a {
+    font-size: 18px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: black;
+
+}
+
+.btn button {
+    border-radius: 20px;
+    border: 5px solid #93DC9C;
+    background-color: #3BB44A;
+    padding: 10px 15px;
+}
+
+.btn button a {
+    font-size: 18px;
+    color: #FFFFFF;
+    font-weight: 700;
+    text-decoration: none;
+    font-style: normal;
+    font-family: 'Lato';
+
+}
+
+.btn-2 {
+    text-align: center;
+    display: block;
+    margin-top: 50px;
+}
+
+.btn-3{
+    text-align: center;
+    display: block;
+     
+}
+/* bannar css */
+
+.bannar-video {
+    background-color: #81298D;
+    color: #fff;
+    padding: 80px 20px;
+}
+
+.bannar-title h2 {
+    font-family: la;
+}
+
+.bussiness-title {
+    text-align: center;
+}
+
+.bussiness-title h2 {
+    font-weight: 800;
+    background-color: #C6F3C6;
+    padding: 15px 1.28%;
+
+}
+
+.bussiness-title h4 {
+    font-weight: 400;
+    text-align: justify;
+    margin-top: 25px;
+    margin-bottom: 40px;
+    padding: 10px 50px;
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.719);
+
+}
+
+.bussiness p {
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.719);
+}
+
+.business-para h4 {
+    font-weight: 400;
+    text-align: justify;
+    margin-top: 25px;
+    margin-bottom: 40px;
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.719);
+}
+/* online-bussiness-padding */
+.online-bussiness-padding{
+    text-align: center;
+    background-color: #81298D;
+    color: #fff;
+    padding: 50px 0px;
+}
+
