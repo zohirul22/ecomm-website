@@ -279,10 +279,84 @@ nav>ul>li>a {
     font-weight: 400;
 }
 
-.slider-2-title{
+.slider-2-title {
     font-weight: 700;
 }
 
-.btn-6 button{
+.btn-6 button {
     padding: 15px 60px;
+}
+
+/* review-css */
+.reviews {
+    margin-top: 60px;
+    
+}
+
+.review-description {
+    position: relative;
+}
+
+.reviews-padding .icons{
+    font-size: 25px;
+    color: #ffaa00c0;
+}
+
+
+.review-title {
+    padding: 40px;
+}
+
+.review-description h4 {
+    font-weight: 700;
+}
+
+.review-description p {
+    color: #262626;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.review-description .fa-quote-left {
+    position: absolute;
+    top: -27px;
+    left: -54px;
+}
+
+.review-description .fa-quote-right {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.review-description .spacial {
+    color: #3BB44A;
+}
+
+.review-description .review-date {
+    font-size: 20px;
+}
+
+.review-description .fa-solid {
+    font-size: 70px;
+    color: gainsboro;
+
+}
+
+/* Shopify css */
+.Shopify-padding{
+    margin-top: 40px;
+    text-align: center;
+    padding: 0px 70px;
+}
+
+.Shopify h2{
+    color: #3BB44A;
+    font-weight: 700;
+}
+.Shopify p{
+    color: #262626;
+    font-weight: 500;
+    font-size: 20px;
+   
 }
