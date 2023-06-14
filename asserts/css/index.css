@@ -170,7 +170,7 @@ nav>ul>li>a {
 
 }
 
-.btn-4 button{
+.btn-4 button {
     display: block;
     width: 100%;
     border: none;
@@ -182,18 +182,18 @@ nav>ul>li>a {
     margin-top: 20px;
 }
 
-.btn-4 button a{
-font-size: 20px;
-color: #fff;
-text-decoration: none;
+.btn-4 button a {
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
 }
 
-.couser-outline p{
+.couser-outline p {
     line-height: 80%;
 }
 
 /* features-section */
-.features-section .features-title h2{
+.features-section .features-title h2 {
     text-align: center;
     background-color: #81298D;
     padding: 20px 0px;
@@ -201,7 +201,7 @@ text-decoration: none;
     margin-top: 20px;
 }
 
-.feature-description h2{
+.feature-description h2 {
     margin-top: 10px;
     color: #262626;
     font-family: "Open Sans";
@@ -210,7 +210,8 @@ text-decoration: none;
     -webkit-text-decoration: none;
     text-decoration: none;
 }
-.feature-description p{
+
+.feature-description p {
     color: #262626;
     font-family: "Open Sans";
     font-size: inherit;
@@ -221,12 +222,67 @@ text-decoration: none;
 }
 
 
-.features-section{
+.features-section {
     text-align: center;
 }
 
-.single-feature .single-feature-img img{
+.single-feature .single-feature-img img {
     width: 212px;
     height: 212px;
     text-align: center;
+}
+
+/* slider CSS */
+.slider {
+    margin-top: 50px;
+}
+
+.slider-datails h4 {
+    color: #262626;
+    font-family: "Open Sans";
+    font-weight: 400;
+
+}
+
+.btn-5 button {
+    padding: 15px 40px;
+}
+
+/* section-padding */
+
+.section-padding h2 {
+    text-align: center;
+    padding: 20px 0px;
+    background-color: #81298D;
+    color: #fff;
+    margin-top: 30px;
+}
+
+.section-padding .spacial {
+    color: #3BB44A;
+}
+
+/* card css */
+
+.card-section {
+    text-align: center;
+}
+
+.card-section .card-description h4 {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.card-section .card-description p {
+    color: #262626;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.slider-2-title{
+    font-weight: 700;
+}
+
+.btn-6 button{
+    padding: 15px 60px;
 }
