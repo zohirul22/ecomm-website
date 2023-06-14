@@ -360,3 +360,45 @@ nav>ul>li>a {
     font-size: 20px;
    
 }
+
+/* footer css */
+footer{
+    margin-top: 50px;
+}
+.footer-top-area-title{
+    margin-top: 15px;
+    font-size: 20px;
+}
+.icons .fa-brands{
+   margin-left: 20px;
+    font-size: 30px;
+    padding: 20px;
+    color: #fff;
+    background-color: grey;
+    border-radius: 50%;
+}
+
+.icons .fa-facebook:hover{
+    background-color: green;
+}
+.icons .fa-instagram:hover{
+    background-color: purple;
+}
+
+.footer-buttom-area{
+    text-align: center;
+}
+
+.footer-buttom-area{
+    background-color: #81298D;
+    color: #fff;
+}
+
+.footer-buttom-area nav ul li{
+    text-align: center;
+}
+.footer-buttom-area nav ul li a{
+    color: #fff;
+    font-size: 14px;
+    text-transform: capitalize;
+}
