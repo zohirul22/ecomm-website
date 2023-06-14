@@ -63,11 +63,12 @@ nav>ul>li>a {
     margin-top: 50px;
 }
 
-.btn-3{
+.btn-3 {
     text-align: center;
     display: block;
-     
+
 }
+
 /* bannar css */
 
 .bannar-video {
@@ -115,11 +116,78 @@ nav>ul>li>a {
     font-size: 25px;
     color: rgba(0, 0, 0, 0.719);
 }
+
 /* online-bussiness-padding */
-.online-bussiness-padding{
+.online-bussiness-padding {
     text-align: center;
     background-color: #81298D;
     color: #fff;
     padding: 50px 0px;
 }
 
+/* couser */
+
+.couser-title h4 {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.course-img img {
+    border: 1px solid grey;
+}
+
+.course-right-title {
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.course-right-title span {
+    font-size: 15px;
+
+}
+
+
+.course-right .icons {
+    color: #FFAB00;
+    margin: 10px 0px;
+    font-size: 20px;
+}
+
+.course-right .spacial-icons {
+    margin-left: 10px;
+}
+
+.course-right .studentpay {
+    text-align: center;
+    background-color: #FFAB00;
+    color: black;
+    font-weight: 700;
+    width: 250px;
+    margin: 0 auto;
+
+}
+
+.btn-4 button{
+    display: block;
+    width: 100%;
+    border: none;
+    background-color: #3BB44A;
+    padding: 10px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.btn-4 button a{
+font-size: 20px;
+color: #fff;
+text-decoration: none;
+}
+
+.couser-outline p{
+    line-height: 80%;
+}
