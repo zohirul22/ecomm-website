@@ -191,3 +191,42 @@ text-decoration: none;
 .couser-outline p{
     line-height: 80%;
 }
+
+/* features-section */
+.features-section .features-title h2{
+    text-align: center;
+    background-color: #81298D;
+    padding: 20px 0px;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.feature-description h2{
+    margin-top: 10px;
+    color: #262626;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    -webkit-text-decoration: none;
+    text-decoration: none;
+}
+.feature-description p{
+    color: #262626;
+    font-family: "Open Sans";
+    font-size: inherit;
+    font-style: normal;
+    font-weight: 400;
+    -webkit-text-decoration: none;
+    text-decoration: none;
+}
+
+
+.features-section{
+    text-align: center;
+}
+
+.single-feature .single-feature-img img{
+    width: 212px;
+    height: 212px;
+    text-align: center;
+}
