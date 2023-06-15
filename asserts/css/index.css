@@ -10,36 +10,7 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
-.header {
-    background-color: #FFFFFF;
-}
-
-.header-area {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.header-logo img {
-    width: 230px;
-}
-
-nav>ul>li {
-    display: inline-block;
-    margin-left: 30px;
-    list-style-type: none;
-    margin-top: 30px;
-}
-
-nav>ul>li>a {
-    font-size: 18px;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-weight: 500;
-    color: black;
-
-}
-
+/* all button css start  */
 .btn button {
     border-radius: 20px;
     border: 5px solid #93DC9C;
@@ -69,7 +40,111 @@ nav>ul>li>a {
 
 }
 
-/* bannar css */
+.btn-4 button {
+    display: block;
+    width: 100%;
+    border: none;
+    background-color: #3BB44A;
+    padding: 10px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.btn-4 button a {
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn-5 button {
+    padding: 15px 40px;
+}
+
+.btn-6 button {
+    padding: 15px 60px;
+}
+
+
+/* all button css end  */
+
+
+/* header css start */
+
+.header {
+    background-color: #FFFFFF;
+   
+}
+
+.header-area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo img {
+    width: 230px;
+}
+
+nav>ul>li {
+    display: inline-block;
+    margin-left: 30px;
+    list-style-type: none;
+    margin-top: 30px;
+}
+
+nav>ul>li>a {
+    font-size: 18px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: black;
+
+}
+
+/* header css end */
+
+/* clock css start */
+
+.clock {
+    background-color: #93dc9cb0;
+    padding: 30px 0px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.clock .clock-title h2 {
+    font-weight: 700;
+    color: black;
+    font-size: 36px;
+}
+
+#clock {
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+
+}
+
+#clock_2 {
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+
+}
+
+#clock_3 {
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+
+}
+
+/* clock css end */
+
+
+/* bannar video css start*/
 
 .bannar-video {
     background-color: #81298D;
@@ -77,10 +152,9 @@ nav>ul>li>a {
     padding: 80px 20px;
 }
 
-.bannar-title h2 {
-    font-family: la;
-}
+/* bannar video css end*/
 
+/* bussiness css start */
 .bussiness-title {
     text-align: center;
 }
@@ -117,7 +191,9 @@ nav>ul>li>a {
     color: rgba(0, 0, 0, 0.719);
 }
 
-/* online-bussiness-padding */
+/* bussiness css end */
+
+/* online-bussiness-padding start */
 .online-bussiness-padding {
     text-align: center;
     background-color: #81298D;
@@ -125,11 +201,35 @@ nav>ul>li>a {
     padding: 50px 0px;
 }
 
-/* couser */
+/* online-bussiness-padding */
+/* couser  css start*/
 
 .couser-title h4 {
     margin-bottom: 50px;
+    font-size: 20px;
     text-align: center;
+    position: relative;
+
+}
+
+.couser-title h4::before {
+    height: 2px;
+    display: block;
+    width: 25%;
+    background: #808080;
+    border-right: 1px white;
+    content: '';
+}
+
+.couser-title h4::after {
+    height: 2px;
+    display: block;
+    width: 25%;
+    background: #808080;
+    right: 0;
+    content: '';
+    top: 10%;
+    position: absolute;
 }
 
 .course-img img {
@@ -170,36 +270,44 @@ nav>ul>li>a {
 
 }
 
-.btn-4 button {
-    display: block;
-    width: 100%;
-    border: none;
-    background-color: #3BB44A;
-    padding: 10px 28px;
-    font-size: 16px;
-    cursor: pointer;
-    text-align: center;
-    margin-top: 20px;
-}
-
-.btn-4 button a {
-    font-size: 20px;
-    color: #fff;
-    text-decoration: none;
-}
-
 .couser-outline p {
     line-height: 80%;
 }
 
-/* features-section */
+/* couser  css end*/
+
+
+
+/* features-css start */
 .features-section .features-title h2 {
     text-align: center;
     background-color: #81298D;
-    padding: 20px 0px;
+    padding: 20px 50px;
     color: #fff;
     margin-top: 20px;
+    position: relative;
 }
+
+.features-section .features-title h2::after {
+    height: 2px;
+    display: block;
+    width: 35%;
+    background: #fff;
+    right: 50px;
+    content: '';
+    top: 28%;
+    position: absolute;
+}
+
+.features-section .features-title h2::before {
+    height: 2px;
+    display: block;
+    width: 35%;
+    background: #fff;
+    border-right: 1px white;
+    content: '';
+}
+
 
 .feature-description h2 {
     margin-top: 10px;
@@ -232,6 +340,39 @@ nav>ul>li>a {
     text-align: center;
 }
 
+/* features-css end */
+
+/* clock-slide css start*/
+
+.clock-slide {
+    margin: 100px 0px;
+
+}
+
+/* clock-slide css end*/
+/* CHOOSE css start */
+.CHOOSE h2 {
+    background-color: #81298D;
+    color: #fff;
+    padding: 20px 0px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.CHOOSE::before {
+    height: 2px;
+    margin: 0 auto;
+    display: block;
+    width: 70%;
+    background: #111111;
+    border-right: 1px white;
+    content: '';
+    margin-top: 40px;
+
+}
+
+/* CHOOSE css end */
+
 /* slider CSS */
 .slider {
     margin-top: 50px;
@@ -244,25 +385,47 @@ nav>ul>li>a {
 
 }
 
-.btn-5 button {
-    padding: 15px 40px;
-}
-
-/* section-padding */
+/* section-padding css start */
 
 .section-padding h2 {
     text-align: center;
-    padding: 20px 0px;
+    padding: 20px 50px;
     background-color: #81298D;
     color: #fff;
     margin-top: 30px;
+    position: relative;
 }
+
+.section-padding h2::after {
+    height: 2px;
+    display: block;
+    width: 30%;
+    background: #fff;
+    right: 50px;
+    content: '';
+    top: 28%;
+    position: absolute;
+}
+
+.section-padding h2::before {
+    height: 2px;
+    display: block;
+    width: 30%;
+    background: #fff;
+    border-right: 1px white;
+    content: '';
+}
+
+
+
 
 .section-padding .spacial {
     color: #3BB44A;
 }
 
-/* card css */
+/* section-padding css end */
+
+/* card css  start*/
 
 .card-section {
     text-align: center;
@@ -279,25 +442,26 @@ nav>ul>li>a {
     font-weight: 400;
 }
 
+/* card css  end*/
+
+/* SPECIAL OFFER css */
 .slider-2-title {
     font-weight: 700;
 }
 
-.btn-6 button {
-    padding: 15px 60px;
-}
+/* SPECIAL OFFER css */
 
-/* review-css */
+/* review-css start*/
 .reviews {
     margin-top: 60px;
-    
+
 }
 
 .review-description {
     position: relative;
 }
 
-.reviews-padding .icons{
+.reviews-padding .icons {
     font-size: 25px;
     color: #ffaa00c0;
 }
@@ -343,34 +507,44 @@ nav>ul>li>a {
 
 }
 
+
 /* Shopify css */
-.Shopify-padding{
+.Shopify-padding {
     margin-top: 40px;
     text-align: center;
     padding: 0px 70px;
 }
 
-.Shopify h2{
+.Shopify h2 {
     color: #3BB44A;
     font-weight: 700;
 }
-.Shopify p{
+
+.Shopify p {
     color: #262626;
     font-weight: 500;
     font-size: 20px;
-   
+
 }
 
-/* footer css */
-footer{
+/* review-css end*/
+
+/* footer css start*/
+footer {
     margin-top: 50px;
 }
-.footer-top-area-title{
+
+.footer-top-area-title {
     margin-top: 15px;
     font-size: 20px;
 }
-.icons .fa-brands{
-   margin-left: 20px;
+
+.footer-right-side .icons {
+    margin-left: 200px;
+}
+
+.icons .fa-brands {
+    margin-left: 10px;
     font-size: 30px;
     padding: 20px;
     color: #fff;
@@ -378,27 +552,141 @@ footer{
     border-radius: 50%;
 }
 
-.icons .fa-facebook:hover{
+.icons .fa-facebook:hover {
     background-color: green;
 }
-.icons .fa-instagram:hover{
+
+.icons .fa-instagram:hover {
     background-color: purple;
 }
 
-.footer-buttom-area{
+.footer-buttom-area {
     text-align: center;
 }
 
-.footer-buttom-area{
+.footer-buttom-area {
     background-color: #81298D;
     color: #fff;
 }
 
-.footer-buttom-area nav ul li{
+.footer-buttom-area nav ul li {
     text-align: center;
 }
-.footer-buttom-area nav ul li a{
+
+.footer-buttom-area nav ul li a {
     color: #fff;
     font-size: 14px;
     text-transform: capitalize;
+}
+
+/* footer css end*/
+
+/* responsive */
+
+@media only screen and (max-width: 600px) {
+
+    /* header */
+    .header-area {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    /* video */
+    video {
+        width: 280px;
+        height: 255px;
+    }
+
+    /* body */
+    body {
+        text-align: center;
+    }
+
+    /* course */
+    .couser-title h4 {
+        margin-bottom: 50px;
+        font-size: 20px;
+        text-align: center;
+        position: relative;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 30px;
+
+    }
+
+    .couser-title h4 span {
+        display: block;
+    }
+
+    .couser-title h4::before {
+        height: 2px;
+        display: block;
+        width: 15%;
+        background: #808080;
+        border-right: 1px white;
+        content: '';
+        left: 0;
+    }
+
+    .couser-title h4::after {
+        height: 2px;
+        display: block;
+        width: 15%;
+        background: #808080;
+        right: 0;
+        content: '';
+        top: 10%;
+        position: absolute;
+    }
+
+    /* features */
+    .features-section .features-title h2 {
+        text-align: center;
+
+        margin-top: 20px;
+        position: relative;
+    }
+
+    .features-section .features-title h2::after {
+        height: 2px;
+        display: block;
+        width: 20%;
+        background: #fff;
+        right: 50px;
+        content: '';
+        top: 28%;
+        position: absolute;
+    }
+
+    .features-section .features-title h2::before {
+        height: 2px;
+        display: block;
+        width: 20%;
+        background: #fff;
+        border-right: 1px white;
+        content: '';
+    }
+
+    /* reviews */
+    .review-description {
+        position: relative;
+    }
+
+    .review-description .fa-quote-left {
+        position: absolute;
+        top: -27px;
+        left: 10px;
+    }
+
+    .review-description .fa-quote-right {
+        position: absolute;
+        bottom: 30px;
+        right: 0;
+    }
+
+    .footer-right-side .icons {
+        margin-left: 0px;
+    }
+
 }
