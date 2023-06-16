@@ -607,6 +607,12 @@ footer {
 
 .footer-buttom-area nav ul li {
     text-align: center;
+   
+    justify-content: center;
+    display: inline-block;
+    margin-left: 40px;
+    margin-top: 27px;
+
 }
 
 .footer-buttom-area nav ul li a {
@@ -684,14 +690,14 @@ footer {
     /* body */
     body {
         text-align: center;
-        width: 90%;
+        width: 99%;
         margin: 0 auto;
     }
 
     /* course */
     .couser-title h4 {
         margin-bottom: 50px;
-        font-size: 20px;
+        font-size: 17px;
         text-align: center;
         position: relative;
         display: block;
@@ -705,54 +711,102 @@ footer {
     }
 
     .couser-title h4::before {
+        content: '';
+        position: absolute;
         height: 2px;
-        display: block;
-        width: 15%;
+        display: inline-block;
+        width: 20%;
+        left: 2%;
+        bottom:0;
+        top: 50%;
         background: #808080;
         border-right: 1px white;
-        content: '';
-        left: 0;
+    
+       
+        
     }
 
     .couser-title h4::after {
         height: 2px;
-        display: block;
-        width: 15%;
+        display: inline-block;
+        width: 20%;
         background: #808080;
         right: 0;
         content: '';
-        top: 10%;
+        top: 50%;
         position: absolute;
     }
 
     /* features */
     .features-section .features-title h2 {
+        margin-bottom: 50px;
+        font-size: 17px;
         text-align: center;
-
-        margin-top: 20px;
         position: relative;
+        display: block;
+        margin: 0 auto;
+        
     }
-
+    
     .features-section .features-title h2::after {
         height: 2px;
         display: block;
         width: 20%;
         background: #fff;
-        right: 50px;
+        right: -10;
         content: '';
-        top: 28%;
+        top: 50%;
         position: absolute;
-    }
 
+        
+    }
+    
     .features-section .features-title h2::before {
         height: 2px;
         display: block;
         width: 20%;
         background: #fff;
-        border-right: 1px white;
+        right: -10;
         content: '';
+        top: 50%;
+        position: absolute;
+       
     }
 
+    
+.section-padding h2 {
+    text-align: center;
+    font-size: 20px;
+    padding: 20px 50px;
+    background-color: #81298D;
+    color: #fff;
+    margin-top: 20px;
+    position: relative;
+}
+
+.section-padding h2::after {
+    height: 2px;
+    display: block;
+    width: 20%;
+    background: #fff;
+    right: 20px;
+    content: '';
+    top: 50%;
+    position: absolute;
+}
+
+.section-padding h2::before {
+    height: 2px;
+    display: block;
+    width: 20%;
+    background: #fff;
+    left: 3%;
+    content: '';
+    top: 50%;
+    position: absolute; 
+}
+
+    
     /* reviews */
     .review-description {
         position: relative;
@@ -776,6 +830,18 @@ footer {
         margin-left: 0px;
     }
 
+    .footer-buttom-area nav ul li {
+        text-align: center;
+        justify-content: center;
+        display: block;
+        margin-left: 40px;
+   
+    
+    }
+
+
 }
+
+
 
 
