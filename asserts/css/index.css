@@ -43,7 +43,7 @@ body {
 }
 
 .btn button a {
-    font-size: 18px;
+    font-size: 16px;
     color: #FFFFFF;
     font-weight: 700;
     text-decoration: none;
@@ -629,6 +629,8 @@ footer {
 @media (max-width:1070px) {
     header{
         padding: 12px 3%;
+
+    width: 90%;
     }
 
     #menu-icon{
