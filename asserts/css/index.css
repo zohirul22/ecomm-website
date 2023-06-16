@@ -672,7 +672,7 @@ footer {
   
 /* body responsive */
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 557px) {
 
     /* header */
     .header-area {
@@ -690,7 +690,7 @@ footer {
     /* body */
     body {
         text-align: center;
-        width: 99%;
+       
         margin: 0 auto;
     }
 
